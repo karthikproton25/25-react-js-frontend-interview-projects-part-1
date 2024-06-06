@@ -7,6 +7,7 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import ScrollIndicator from "./components/scroll-indicator";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
+import accordian from "./components/accordian";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {/* <QRCodeGenerator/> */}
       {/* <LoadMoreData/> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {<Accordian/>}
 
     </div>
   );
