@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 const Blog = require("../model/Blog");
 
-//fetch list of blogs
-//add a new blog
-//delete a blog
-//update a blog
-
 const fetchListOfBlogs = async (req, res) => {
   let blogList;
   try {
